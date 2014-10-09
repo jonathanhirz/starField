@@ -1,0 +1,23 @@
+{
+    project : {
+        name : 'starField',
+        version : '1.0.0',
+        author : 'Jonathan Hirz',
+
+        app : {
+            name : 'starField',
+            package : 'com.jonathanhirz.starField'
+        },
+
+        build : {
+            dependencies : {
+                luxe : '*',
+            }
+        },
+
+        files : {
+            config: 'config.json',
+            assets : 'assets/'
+        }
+    }
+}
