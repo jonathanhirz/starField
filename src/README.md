@@ -1,1 +1,0 @@
-a basic star field made with Luxe / snõwkit

@@ -37,6 +37,7 @@ class Main extends luxe.Game {
             }); //starSprite
 
             starSprite.add(new StarComponent());
+            starSprite.add(new ColorRollComponent());
         }
 
     } //ready

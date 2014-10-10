@@ -16,7 +16,7 @@ class StarComponent extends Component {
 
         sprite = cast entity;
         _diff = Math.random() * 0.5;
-        trace(_diff);
+        // trace(_diff);
 
         sprite.scale = new Vector(_diff, _diff);
         sprite.color = new Color(1, 1, 1, _diff);
