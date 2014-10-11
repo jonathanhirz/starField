@@ -39,6 +39,16 @@ class Main extends luxe.Game {
             starSprite.add(new StarComponent());
         }
 
+        var testSprite = new Sprite({
+            name: 'test',
+            size: new Vector(100, 100),
+            color: new Color().rgb(0xbd2fb5),
+            pos: Luxe.screen.mid
+        });
+        testSprite.add(new ColorRollComponent());
+        testSprite.add(new RotateComponent());
+        testSprite.add(new BounceComponent());
+
     } //ready
 
     override function onkeyup( e:KeyEvent ) {
